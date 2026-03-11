@@ -1,0 +1,38 @@
+
+---
+
+# 2️⃣ .gitignore
+
+Create a file named **`.gitignore`**
+
+```gitignore
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data files (optional)
+data/*.pdf
+
+# Model files
+*.bin
+*.pt
+
+# Environment variables
+.env
